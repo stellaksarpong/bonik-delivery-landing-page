@@ -1,0 +1,112 @@
+:root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 1rem;
+  background: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;}
+
+.navs{
+    display: flex;
+    gap: 2rem;
+    padding-right: 1rem;
+    
+    
+  }
+
+.logo{
+    width: 1.3rem;
+    height: 2rem;
+    top: 1.125rem;
+    left: 8.438rem;
+}
+.call-icon{
+    width: 10rem;
+    height: 1.875rem;
+    top: 1.125rem;
+    left: 1.875rem;
+    font-size: 1rem;
+}
+.sign-in{
+background-color: #e24229;   
+width: 5rem;
+height: 2rem;
+top: 1.625rem;
+border-radius: 1rem;
+color: #fff;
+font-size: 1rem;
+border-color: #e24229;
+
+}
+.search{
+    width: 3rem;
+    height: 1.50rem;
+    gap: 5rem;
+}
+.lang{
+    width: 1rem;
+    height: 1.1rem;
+    gap: 5rem;
+    color: gray;
+
+}
+.hero {
+  background-color: #f2411e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  color: #fff;
+  padding: 1.5rem 1rem 3rem;
+}
+.hero-content h1 {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  
+  
+}
+.highlight {
+  color: #fff;
+  font-weight: bold;
+}
+.description {
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.track-box {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.track-box input {
+  flex: 1;
+  padding: 0.6rem;
+  border: none;
+  font-size: 0.8rem;
+  
+}
+.track-box button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 0 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
